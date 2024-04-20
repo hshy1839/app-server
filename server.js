@@ -19,7 +19,7 @@ app.use(session({
 }));
 
 app.use(cors({
-  origin: 'http://localhost:8864',
+  origin: 'http://43.203.125.32',
   methods: ['GET', 'POST'],
   credentials: true,
   optionsSuccessStatus: 200, 
