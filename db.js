@@ -5,6 +5,6 @@ const connection = mysql.createConnection({
   user: 'admin',
   password: '11111111',
   port :3306,
-  database: 'hongstagram'
+  database: 'webdatabase_test'
 });
 module.exports = connection;
